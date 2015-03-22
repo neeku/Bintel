@@ -61,7 +61,7 @@
     
 	myAnnotation1.coordinate=theCoordinate1;
 	myAnnotation1.title=@"Capel St. 1";
-	myAnnotation1.subtitle=@"Used since last collection: 38 times";
+	myAnnotation1.subtitle=@"Used since last collection: 38 times\n\n Weight: 21 KG; Mind your back!";
 	
 	MyAnnotation* myAnnotation2=[[MyAnnotation alloc] init];
 	
@@ -73,13 +73,13 @@
 	
 	myAnnotation3.coordinate=theCoordinate3;
 	myAnnotation3.title=@"Oliver Bond St. 3";
-	myAnnotation3.subtitle=@"Used since last collection: 10 times\n";
+	myAnnotation3.subtitle=@"Used since last collection: 10 times\n\n Weight: 8 KG";
 	
 	MyAnnotation* myAnnotation4=[[MyAnnotation alloc] init];
 	
 	myAnnotation4.coordinate=theCoordinate4;
 	myAnnotation4.title=@"Guiness!";
-	myAnnotation4.subtitle=@"Used since last collection: 11 times";
+	myAnnotation4.subtitle=@"Used since last collection: 11 times\n Weight: 8 KG";
 	
 	[mapView addAnnotation:myAnnotation1];
 	[mapView addAnnotation:myAnnotation2];
